@@ -2,6 +2,12 @@
 
 The LAMP (Linux, Apache, MySQL, and PHP) stack implementation in the Amazon Web Services (AWS) environment is the main objective of this project. A well-liked open-source software stack called the LAMP stack is used to serve dynamic webpages and web applications.
 
+#### Technology Stack
+A technology stack, sometimes referred to as a software stack or solution stack, is a group of software frameworks and technologies that are used in together to create and maintain a certain application or system. The infrastructure and functionality for a software solution are provided by a group of programming languages, frameworks, libraries, databases, operating systems, and other tools that cooperate with one another.
+
+Each layer in a typical technology stack has a distinct function to fulfil during the software development process. 
+
+
 ## Table of Contents
     Introduction
     Project Overview
