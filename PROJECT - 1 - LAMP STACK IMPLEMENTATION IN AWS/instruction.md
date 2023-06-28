@@ -9,7 +9,8 @@ In a terminal window, use the ssh command to connect to the instance. You specif
  chmod 400 /path/to/your/key-pair.pem
 
 - Connect to your instance using its Public DNS:
- ssh -i sca-test.pem ubuntu@ec2-35-179-15-91.eu-west-2.compute.amazonaws.com
+  
+ ssh -i sca-test.pem instance-user-name@instance-public-dns-name
 
 if your private key is located in a different directory, use the command below:
   ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
