@@ -19,3 +19,12 @@ In a terminal window, use the ssh command to connect to the instance. You specif
   
 
 <img width="1440" alt="Screenshot 2023-06-28 at 4 15 31 PM" src="https://github.com/joy2323/DevOps_Projects/assets/43809841/484857d4-3a77-46ff-9025-8f4012377056">
+
+
+  `sudo apt update`
+
+   `sudo apt install apache2`
+
+   `sudo systemctl status apache2`
+   
+   <img width="1440" alt="Screenshot 2023-06-28 at 4 23 12 PM" src="https://github.com/joy2323/DevOps_Projects/assets/43809841/ebae6e33-f0a0-4e55-849c-b4967d9f829a">
