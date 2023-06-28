@@ -13,3 +13,5 @@ In a terminal window, use the ssh command to connect to the instance. You specif
 
 if your private key is located in a different directory, use the command below:
   ssh -i /path/key-pair-name.pem instance-user-name@instance-public-dns-name
+
+<img width="1440" alt="Screenshot 2023-06-28 at 4 15 31 PM" src="https://github.com/joy2323/DevOps_Projects/assets/43809841/484857d4-3a77-46ff-9025-8f4012377056">
