@@ -40,5 +40,35 @@ Use the ssh command to connect to the instance in a terminal window. You specify
 
 
 ### PHP Installation
+  `sudo apt install php libapache2-mod-php php-mysql`
 
+   `php -v`
   
+<img width="1085" alt="Screenshot 2023-06-28 at 5 05 29 PM" src="https://github.com/joy2323/DevOps_Projects/assets/43809841/d2096c9a-af69-420b-a56c-59557976bf08">
+
+### Creating a Virtual Host using Apache
+   `sudo mkdir /var/www/sca-projectlamp`
+
+   `sudo chown -R $USER:$USER /var/www/sca-projectlamp`
+
+   `sudo vi /etc/apache2/sites-available/sca-projectlamp.conf`
+
+    <VirtualHost>
+         ServerName sca-projectlamp
+         
+         ServerAlias www.sca-projectlamp
+         
+         ServerAdmin webmaster@localhost
+         
+         DocumentRoot /var/www/sca-projectlamp
+         
+         ErrorLog ${APACHE_LOG_DIR}/error.log
+         
+         CustomLog ${APACHE_LOG_DIR}/access.log combined
+         
+    </VirtualHost>
+
+<img width="1388" alt="Screenshot 2023-06-29 at 7 23 20 PM" src="https://github.com/joy2323/DevOps_Projects/assets/43809841/aebaa9fb-d961-4845-ac2b-264ec8c1c552">
+
+
+
